@@ -1,15 +1,20 @@
 # Internee.pk AI Chatbot App
 
-This project is developed as part of my React Native internship assignment at Internee.pk.
+This project was developed as part of my Internee.pk React Native Internship Assignment 4.
+
+## Overview
+
+The app is an AI-powered chatbot designed to assist interns with internship-related queries in real time. It includes a React Native mobile app and a Node.js backend server.
 
 ## Features
 
 - Real-time chatbot interface
-- AI-powered internship query responses
-- Socket.io-based real-time communication
-- Node.js backend server
-- OpenAI API integration
-- User feedback form for improving chatbot responses
+- AI-powered responses
+- Internship-related query handling
+- Socket.io real-time communication
+- User feedback form
+- Backend API integration
+- Secure OpenAI API handling through backend
 
 ## Technologies Used
 
@@ -22,9 +27,9 @@ This project is developed as part of my React Native internship assignment at In
 
 ## Project Structure
 
-- `mobile/` contains the React Native Expo mobile app
-- `server/` contains the Node.js and Socket.io backend
-
-## Note
-
-The OpenAI API key is stored in a `.env` file and is not uploaded to GitHub for security reasons.
+```text
+InterneeAIChatbot
+├── mobile
+│   └── React Native Expo app
+└── server
+    └── Node.js Socket.io backend
